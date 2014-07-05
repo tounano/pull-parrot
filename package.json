@@ -1,6 +1,6 @@
 {
   "name": "pull-parrot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./parrot.js",
   "description": "Clone a pull-stream manually.",
   "homepage": "https://github.com/tounano/pull-parrot/",
@@ -16,12 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tounano/pull-stream"
+    "url": "https://github.com/tounano/pull-parrot"
   },
   "engines": {
     "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
   },
   "dependencies": {
-    "pull-stream": "latest"
+    "pull-stream": "latest",
+    "underscore": "latest"
   }
 }
